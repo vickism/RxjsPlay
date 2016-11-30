@@ -1,0 +1,33 @@
+{
+  "name": "rxjsplay",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vickism/RxjsPlay.git"
+  },
+  "keywords": [
+    "rxjs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vickism/RxjsPlay/issues"
+  },
+  "homepage": "https://github.com/vickism/RxjsPlay#readme",
+  "dependencies": {
+    "rxjs": "^5.0.0-rc.4"
+  },
+  "devDependencies": {
+    "ts-loader": "^1.2.2",
+    "typescript": "^2.0.10",
+    "typings": "^2.0.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
